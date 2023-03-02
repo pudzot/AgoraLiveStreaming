@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1898011584BAF7A96B79A16C /* Pods_AgoraLiveStreaming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A3BE600A31016D9AECAA3A /* Pods_AgoraLiveStreaming.framework */; };
 		1B75019929AF781C0043E92D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75019829AF781C0043E92D /* AppDelegate.swift */; };
 		1B75019B29AF781C0043E92D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75019A29AF781C0043E92D /* SceneDelegate.swift */; };
 		1B75019D29AF781C0043E92D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75019C29AF781C0043E92D /* ViewController.swift */; };
@@ -14,6 +15,19 @@
 		1B7501A229AF781E0043E92D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7501A129AF781E0043E92D /* Assets.xcassets */; };
 		1B7501A529AF781E0043E92D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7501A329AF781E0043E92D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B7501B129AF7D750043E92D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1B75019529AF781C0043E92D /* AgoraLiveStreaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgoraLiveStreaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +38,39 @@
 		1B7501A129AF781E0043E92D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B7501A429AF781E0043E92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B7501A629AF781E0043E92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B7501B529B08CB20043E92D /* AgoraAudioBeautyExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAudioBeautyExtension.xcframework; sourceTree = "<group>"; };
+		1B7501B629B08CB20043E92D /* AgoraSpatialAudioExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSpatialAudioExtension.xcframework; sourceTree = "<group>"; };
+		1B7501B729B08CB20043E92D /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		1B7501B829B08CB20043E92D /* AgoraClearVisionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraClearVisionExtension.xcframework; sourceTree = "<group>"; };
+		1B7501B929B08CB20043E92D /* AgoraFaceDetectionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraFaceDetectionExtension.xcframework; sourceTree = "<group>"; };
+		1B7501BA29B08CB20043E92D /* AgoraVideoSegmentationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoSegmentationExtension.xcframework; sourceTree = "<group>"; };
+		1B7501BB29B08CB20043E92D /* AgoraContentInspectExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraContentInspectExtension.xcframework; sourceTree = "<group>"; };
+		1B7501BC29B08CB20043E92D /* AgoraAiNoiseSuppressionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAiNoiseSuppressionExtension.xcframework; sourceTree = "<group>"; };
+		1B7501BD29B08CB20043E92D /* AgoraDav1d.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraDav1d.xcframework; sourceTree = "<group>"; };
+		1B7501BE29B08CB20043E92D /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agorafdkaac.xcframework; sourceTree = "<group>"; };
+		1B7501BF29B08CB20043E92D /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
+		1B7501C029B08CB20043E92D /* AgoraReplayKitExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraReplayKitExtension.xcframework; sourceTree = "<group>"; };
+		1B7501C129B08CB20043E92D /* AgoraDrmLoaderExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraDrmLoaderExtension.xcframework; sourceTree = "<group>"; };
+		1B7501C229B08CB20043E92D /* AgoraAiEchoCancellationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAiEchoCancellationExtension.xcframework; sourceTree = "<group>"; };
+		1B7501C329B08CB20043E92D /* AgoraVideoQualityAnalyzerExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoQualityAnalyzerExtension.xcframework; sourceTree = "<group>"; };
+		1B7501C529B08CC50043E92D /* AgoraAudioBeautyExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAudioBeautyExtension.xcframework; sourceTree = "<group>"; };
+		1B7501C629B08CC50043E92D /* AgoraSpatialAudioExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSpatialAudioExtension.xcframework; sourceTree = "<group>"; };
+		1B7501C729B08CC50043E92D /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		1B7501C829B08CC50043E92D /* AgoraClearVisionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraClearVisionExtension.xcframework; sourceTree = "<group>"; };
+		1B7501C929B08CC50043E92D /* AgoraFaceDetectionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraFaceDetectionExtension.xcframework; sourceTree = "<group>"; };
+		1B7501CA29B08CC50043E92D /* AgoraVideoSegmentationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoSegmentationExtension.xcframework; sourceTree = "<group>"; };
+		1B7501CB29B08CC50043E92D /* AgoraContentInspectExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraContentInspectExtension.xcframework; sourceTree = "<group>"; };
+		1B7501CC29B08CC50043E92D /* AgoraAiNoiseSuppressionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAiNoiseSuppressionExtension.xcframework; sourceTree = "<group>"; };
+		1B7501CD29B08CC50043E92D /* AgoraDav1d.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraDav1d.xcframework; sourceTree = "<group>"; };
+		1B7501CE29B08CC50043E92D /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agorafdkaac.xcframework; sourceTree = "<group>"; };
+		1B7501CF29B08CC50043E92D /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
+		1B7501D029B08CC50043E92D /* AgoraReplayKitExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraReplayKitExtension.xcframework; sourceTree = "<group>"; };
+		1B7501D129B08CC50043E92D /* AgoraDrmLoaderExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraDrmLoaderExtension.xcframework; sourceTree = "<group>"; };
+		1B7501D229B08CC50043E92D /* AgoraAiEchoCancellationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAiEchoCancellationExtension.xcframework; sourceTree = "<group>"; };
+		1B7501D329B08CC50043E92D /* AgoraVideoQualityAnalyzerExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoQualityAnalyzerExtension.xcframework; sourceTree = "<group>"; };
+		2F01C7857C0717E0338B0494 /* Pods-AgoraLiveStreaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraLiveStreaming.release.xcconfig"; path = "Target Support Files/Pods-AgoraLiveStreaming/Pods-AgoraLiveStreaming.release.xcconfig"; sourceTree = "<group>"; };
+		D3A3BE600A31016D9AECAA3A /* Pods_AgoraLiveStreaming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgoraLiveStreaming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80E6760EA2B791F58879443 /* Pods-AgoraLiveStreaming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraLiveStreaming.debug.xcconfig"; path = "Target Support Files/Pods-AgoraLiveStreaming/Pods-AgoraLiveStreaming.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1898011584BAF7A96B79A16C /* Pods_AgoraLiveStreaming.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +90,8 @@
 			children = (
 				1B75019729AF781C0043E92D /* AgoraLiveStreaming */,
 				1B75019629AF781C0043E92D /* Products */,
+				1B7501AD29AF7D740043E92D /* Frameworks */,
+				A37A745550F6DF09A56E9623 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +117,71 @@
 			path = AgoraLiveStreaming;
 			sourceTree = "<group>";
 		};
+		1B7501AD29AF7D740043E92D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B7501C429B08CC50043E92D /* AgoraRtcEngine_iOS */,
+				1B7501B429B08CB20043E92D /* AgoraRtcEngine_iOS */,
+				D3A3BE600A31016D9AECAA3A /* Pods_AgoraLiveStreaming.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B7501B429B08CB20043E92D /* AgoraRtcEngine_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B7501B529B08CB20043E92D /* AgoraAudioBeautyExtension.xcframework */,
+				1B7501B629B08CB20043E92D /* AgoraSpatialAudioExtension.xcframework */,
+				1B7501B729B08CB20043E92D /* Agoraffmpeg.xcframework */,
+				1B7501B829B08CB20043E92D /* AgoraClearVisionExtension.xcframework */,
+				1B7501B929B08CB20043E92D /* AgoraFaceDetectionExtension.xcframework */,
+				1B7501BA29B08CB20043E92D /* AgoraVideoSegmentationExtension.xcframework */,
+				1B7501BB29B08CB20043E92D /* AgoraContentInspectExtension.xcframework */,
+				1B7501BC29B08CB20043E92D /* AgoraAiNoiseSuppressionExtension.xcframework */,
+				1B7501BD29B08CB20043E92D /* AgoraDav1d.xcframework */,
+				1B7501BE29B08CB20043E92D /* Agorafdkaac.xcframework */,
+				1B7501BF29B08CB20043E92D /* AgoraSoundTouch.xcframework */,
+				1B7501C029B08CB20043E92D /* AgoraReplayKitExtension.xcframework */,
+				1B7501C129B08CB20043E92D /* AgoraDrmLoaderExtension.xcframework */,
+				1B7501C229B08CB20043E92D /* AgoraAiEchoCancellationExtension.xcframework */,
+				1B7501C329B08CB20043E92D /* AgoraVideoQualityAnalyzerExtension.xcframework */,
+			);
+			name = AgoraRtcEngine_iOS;
+			path = ../Agora/APIExample/Pods/AgoraRtcEngine_iOS;
+			sourceTree = "<group>";
+		};
+		1B7501C429B08CC50043E92D /* AgoraRtcEngine_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B7501C529B08CC50043E92D /* AgoraAudioBeautyExtension.xcframework */,
+				1B7501C629B08CC50043E92D /* AgoraSpatialAudioExtension.xcframework */,
+				1B7501C729B08CC50043E92D /* Agoraffmpeg.xcframework */,
+				1B7501C829B08CC50043E92D /* AgoraClearVisionExtension.xcframework */,
+				1B7501C929B08CC50043E92D /* AgoraFaceDetectionExtension.xcframework */,
+				1B7501CA29B08CC50043E92D /* AgoraVideoSegmentationExtension.xcframework */,
+				1B7501CB29B08CC50043E92D /* AgoraContentInspectExtension.xcframework */,
+				1B7501CC29B08CC50043E92D /* AgoraAiNoiseSuppressionExtension.xcframework */,
+				1B7501CD29B08CC50043E92D /* AgoraDav1d.xcframework */,
+				1B7501CE29B08CC50043E92D /* Agorafdkaac.xcframework */,
+				1B7501CF29B08CC50043E92D /* AgoraSoundTouch.xcframework */,
+				1B7501D029B08CC50043E92D /* AgoraReplayKitExtension.xcframework */,
+				1B7501D129B08CC50043E92D /* AgoraDrmLoaderExtension.xcframework */,
+				1B7501D229B08CC50043E92D /* AgoraAiEchoCancellationExtension.xcframework */,
+				1B7501D329B08CC50043E92D /* AgoraVideoQualityAnalyzerExtension.xcframework */,
+			);
+			name = AgoraRtcEngine_iOS;
+			path = ../Agora/APIExample/Pods/AgoraRtcEngine_iOS;
+			sourceTree = "<group>";
+		};
+		A37A745550F6DF09A56E9623 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D80E6760EA2B791F58879443 /* Pods-AgoraLiveStreaming.debug.xcconfig */,
+				2F01C7857C0717E0338B0494 /* Pods-AgoraLiveStreaming.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B7501A929AF781E0043E92D /* Build configuration list for PBXNativeTarget "AgoraLiveStreaming" */;
 			buildPhases = (
+				E7A8F04E94DCDA652FBE39C8 /* [CP] Check Pods Manifest.lock */,
 				1B75019129AF781C0043E92D /* Sources */,
 				1B75019229AF781C0043E92D /* Frameworks */,
 				1B75019329AF781C0043E92D /* Resources */,
+				1B7501B129AF7D750043E92D /* Embed Frameworks */,
+				8148E2EC2103BBE952AEAC32 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +221,7 @@
 				};
 			};
 			buildConfigurationList = 1B75019029AF781B0043E92D /* Build configuration list for PBXProject "AgoraLiveStreaming" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 1B75018C29AF781B0043E92D;
+			packageReferences = (
+				1B7501AC29AF78580043E92D /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */,
+			);
 			productRefGroup = 1B75019629AF781C0043E92D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,6 +253,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8148E2EC2103BBE952AEAC32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraLiveStreaming/Pods-AgoraLiveStreaming-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraLiveStreaming/Pods-AgoraLiveStreaming-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgoraLiveStreaming/Pods-AgoraLiveStreaming-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A8F04E94DCDA652FBE39C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgoraLiveStreaming-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B75019129AF781C0043E92D /* Sources */ = {
@@ -216,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +445,7 @@
 		};
 		1B7501AA29AF781E0043E92D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80E6760EA2B791F58879443 /* Pods-AgoraLiveStreaming.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +454,13 @@
 				DEVELOPMENT_TEAM = 6RF29S6582;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AgoraLiveStreaming/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AgoraLiveStreaming;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +476,7 @@
 		};
 		1B7501AB29AF781E0043E92D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F01C7857C0717E0338B0494 /* Pods-AgoraLiveStreaming.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +485,13 @@
 				DEVELOPMENT_TEAM = 6RF29S6582;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AgoraLiveStreaming/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AgoraLiveStreaming;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +527,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B7501AC29AF78580043E92D /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 1B75018D29AF781B0043E92D /* Project object */;
 }
